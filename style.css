@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -27,19 +28,19 @@
     --cartbg: #e8f6ea;
     /*Banner1Colors*/
     --wh: #fff;
-    --rd:#ef3636;
+    --rd: #ef3636;
     --rd2: #ec544e;
     /*Newsletters Colors*/
-    --az:#041e42;
-    --gr2:#818ea0;
-    --dora:#ffbd27;
+    --az: #041e42;
+    --gr2: #818ea0;
+    --dora: #ffbd27;
     /*Blog Page colors*/
     --blackbl: #000;
-    --gr2:#c9cbce;
+    --gr2: #c9cbce;
     /*Contact Form color*/
-    --form:#e1e1e1;
+    --form: #e1e1e1;
     /*cart table colors*/
-    --bl4:#e2e9e1;
+    --bl4: #e2e9e1;
 }
 
 h1 {
@@ -81,7 +82,7 @@ p {
 button.normal {
     font-size: 14px;
     font-weight: 600;
-    padding: 15px  30px;
+    padding: 15px 30px;
     color: var(--black);
     background-color: var(--wh);
     border-radius: 4px;
@@ -94,7 +95,7 @@ button.normal {
 button.white {
     font-size: 13px;
     font-weight: 600;
-    padding: 11px  18px;
+    padding: 11px 18px;
     color: var(--wh);
     background-color: transparent;
     cursor: pointer;
@@ -109,7 +110,7 @@ body {
 
 /*Inicio del header*/
 
-.logo  {
+.logo {
     width: 80px;
     max-height: 100px;
 }
@@ -120,19 +121,19 @@ body {
     justify-content: space-between;
     padding: 15px 80px;
     background-color: var(--bl);
-    box-shadow: 0 5px 15px rgb(0, 0, 0,0.06);
+    box-shadow: 0 5px 15px rgb(0, 0, 0, 0.06);
     z-index: 999;
     position: sticky;
     top: 0;
     left: 0;
-    
+
 }
 
 #navbar {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 
 }
 
@@ -150,13 +151,13 @@ body {
     transition: 0.3 ease-in-out;
 }
 
-#navbar li a:hover, 
-#navbar li a.active  {
+#navbar li a:hover,
+#navbar li a.active {
     color: var(--green)
 }
 
 #navbar li a.active::after,
-#navbar li a:hover::after{
+#navbar li a:hover::after {
     content: "";
     width: 30%;
     height: 2px;
@@ -178,8 +179,8 @@ body {
 /*Home Page*/
 
 #hero {
-    background-image: url('img/bgbnbn.png');
-    height: 90vh;
+    background-image: url('img/banner/tapiacoello.jpg');
+    height: 100vh;
     width: 100%;
     background-position: top 0 right 50;
     background-size: cover;
@@ -192,15 +193,18 @@ body {
 
 #hero h4 {
     padding-bottom: 15px;
-    color: var(--black);
+    color: var(--wh);
 }
-#hero h2,#hero p{
-    color: var(--black);
+
+#hero h2,
+#hero p {
+    color: var(--wh);
 }
 
 #hero h1 {
     color: var(--green);
 }
+
 #hero button {
     background-image: url('img/button1.png');
     background-size: contain;
@@ -214,6 +218,7 @@ body {
     font-size: 16px;
 
 }
+
 /*
 #feature {
     display: flex;
@@ -268,6 +273,7 @@ body {
 #product1 {
     text-align: center;
 }
+
 #product1 .pro-container {
     display: flex;
     justify-content: space-between;
@@ -276,7 +282,7 @@ body {
 }
 
 
-#product1 .pro{
+#product1 .pro {
     width: 23%;
     min-width: 250px;
     padding: 10px 12px;
@@ -289,20 +295,22 @@ body {
     position: relative;
 }
 
-#product1 .pro:hover{
+#product1 .pro:hover {
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
-    
+
 }
+
 #product1 .pro img {
     width: 100%;
     border-radius: 20px;
 }
 
-#product1 .pro .des{
+#product1 .pro .des {
     text-align: start;
     padding: 10px 0;
 }
-#product1 .pro .des span{
+
+#product1 .pro .des span {
     color: var(--spn);
     font-size: 12px;
 
@@ -364,6 +372,7 @@ body {
     font-size: 30px;
     padding: 10px 0;
 }
+
 #banner h2 span {
     color: var(--green);
 }
@@ -392,7 +401,7 @@ body {
     padding: 30px;
 }
 
-#sm-banner .banner-box2{
+#sm-banner .banner-box2 {
     background-image: url('img/banner/tapiacoello.jpg');
 }
 
@@ -425,7 +434,7 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 0 80px;
-    
+
 }
 
 #banner3 .banner-box {
@@ -443,13 +452,13 @@ body {
 }
 
 #banner3 .banner-box2 {
-    
-    background-image: url('img/banner/alex.jpeg');
+
+    background-image: url('img/banner/alex1.jpeg');
 }
 
 #banner3 .banner-box3 {
-    
-    background-image: url('img/banner/wptaleman.jpg');
+
+    background-image: url('img/banner/french.jpeg');
 }
 
 #banner3 h2 {
@@ -457,6 +466,7 @@ body {
     font-weight: 900;
     font-size: 22px;
 }
+
 #banner3 h3 {
     color: var(--green);
     font-weight: 800;
@@ -480,6 +490,7 @@ body {
     font-weight: 700;
     color: var(--bl);
 }
+
 #newsletter p {
     font-size: 14px;
     font-weight: 600;
@@ -490,7 +501,7 @@ body {
     color: var(--dora);
 }
 
-#newsletter .form{
+#newsletter .form {
     display: flex;
     width: 40%;
 }
@@ -519,9 +530,10 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    
+
 }
-footer .col{
+
+footer .col {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -531,6 +543,7 @@ footer .col{
 footer .logo {
     margin-bottom: 15px;
 }
+
 footer h4 {
     font-size: 14px;
     padding-bottom: 20px;
@@ -548,31 +561,33 @@ footer a {
     margin-bottom: 10px;
 }
 
-footer .follow{ 
+footer .follow {
     margin-top: 20px;
 
 }
 
-footer .follow i { 
+footer .follow i {
     color: var(--gr);
     padding-right: 4px;
     cursor: pointer;
 }
 
-footer .install .row img{
+footer .install .row img {
     border: 1px solid var(--green);
     border-radius: 6px;
 
 }
 
-footer .install img{
+footer .install img {
     margin: 10px 0 15px 0;
 }
-footer .follow i:hover,  footer a:hover{
+
+footer .follow i:hover,
+footer a:hover {
     color: var(--green);
 }
 
-footer .copyrght{
+footer .copyrght {
     width: 100%;
     text-align: center;
 
@@ -592,7 +607,8 @@ footer .copyrght{
     padding: 14px;
 }
 
-#page-header h2, #page-header p {
+#page-header h2,
+#page-header p {
 
     color: var(--wh);
 
@@ -603,7 +619,7 @@ footer .copyrght{
 
 }
 
-#pagination a{
+#pagination a {
     text-decoration: none;
     background-color: var(--green);
     padding: 15px 20px;
@@ -612,7 +628,7 @@ footer .copyrght{
     font-weight: 600;
 }
 
-#pagination a i{
+#pagination a i {
     font-size: 12px;
     font-weight: 600;
 }
@@ -629,15 +645,16 @@ footer .copyrght{
     margin-right: 50px;
 }
 
-.small-img-group{
+.small-img-group {
     display: flex;
     justify-content: space-between;
 }
 
-.small-img-col{
+.small-img-col {
     flex-basis: 24%;
     cursor: pointer;
 }
+
 #prodetails .single-pro-details {
     width: 50%;
     padding-top: 30px;
@@ -663,25 +680,25 @@ footer .copyrght{
     outline: none;
 }
 
-#prodetails .single-pro-details select{
+#prodetails .single-pro-details select {
     display: block;
     padding: 5px 10px;
     margin-bottom: 10px;
 }
 
-#prodetails .single-pro-details span{
+#prodetails .single-pro-details span {
     line-height: 25px;
     text-align: justify;
 }
 
-#prodetails .single-pro-details  button {
+#prodetails .single-pro-details button {
     background-color: var(--green);
     color: var(--wh);
 }
 
 /*Blog Page*/
 
-#page-header.blog-header{
+#page-header.blog-header {
     background-image: url('img/banner/b19.jpg');
 }
 
@@ -689,7 +706,7 @@ footer .copyrght{
     padding: 150px 150px 0 150px;
 }
 
-#blog .blog-box{
+#blog .blog-box {
     display: flex;
     align-items: center;
     width: 100%;
@@ -697,7 +714,7 @@ footer .copyrght{
     padding-bottom: 90px;
 }
 
-#blog .blog-img{
+#blog .blog-img {
     width: 50%;
     margin-right: 40px;
 
@@ -709,7 +726,7 @@ footer .copyrght{
     object-fit: cover;
 }
 
-#blog .blog-details{
+#blog .blog-details {
     width: 50%;
 }
 
@@ -722,7 +739,7 @@ footer .copyrght{
     transition: 0.3s;
 }
 
-#blog .blog-details a::after{
+#blog .blog-details a::after {
     content: "";
     width: 50px;
     height: 1px;
@@ -732,15 +749,15 @@ footer .copyrght{
     right: -60px;
 }
 
-#blog .blog-details a:hover{
+#blog .blog-details a:hover {
     color: var(--green);
 }
 
-#blog .blog-details a:hover::after{
+#blog .blog-details a:hover::after {
     background-color: var(--green);
 }
 
-#blog .blog-box h1{
+#blog .blog-box h1 {
     position: absolute;
     top: -40px;
     left: 0;
@@ -765,25 +782,26 @@ footer .copyrght{
     width: 50%;
     height: auto;
 }
+
 #about-head div {
     padding-left: 40px;
 }
 
-#about-head div h2{
+#about-head div h2 {
     margin-top: 0px;
 }
 
-#about-app{
+#about-app {
     text-align: center;
 }
 
-#about-app .video{
+#about-app .video {
     width: 70%;
     height: 100%;
     margin: 30px auto 0 auto;
 }
 
-#about-app .video video{
+#about-app .video video {
     width: 100%;
     height: 100%;
     border-radius: 20px;
@@ -798,54 +816,56 @@ footer .copyrght{
     justify-content: space-between;
 }
 
-#contact-details .details{
+#contact-details .details {
     width: 40%;
 }
 
-#contact-details .details span, #form-details form span{
+#contact-details .details span,
+#form-details form span {
     font-size: 12px;
 }
 
-#contact-details .details h2, #form-details form h2{
+#contact-details .details h2,
+#form-details form h2 {
     font-size: 30px;
     line-height: 35px;
     padding: 20px 0;
 }
 
-#contact-details .details h3{
+#contact-details .details h3 {
     font-size: 16px;
     padding-bottom: 15px;
 }
 
-#contact-details .details li{
+#contact-details .details li {
     list-style: none;
     display: flex;
     padding: 10px 0;
 }
 
-#contact-details .details li i{
+#contact-details .details li i {
     padding-right: 22px;
     font-size: 14px;
 }
 
-#contact-details .details li p{
+#contact-details .details li p {
     margin: 0;
     font-size: 14px;
 }
 
-#contact-details .map{
+#contact-details .map {
     width: 55%;
     height: 400px;
 }
 
-#contact-details .map iframe{
+#contact-details .map iframe {
     width: 100%;
     height: 100%;
 }
 
 /*Form - Contact Page*/
 
-#form-details{
+#form-details {
     display: flex;
     justify-content: space-between;
     margin: 30px;
@@ -853,14 +873,15 @@ footer .copyrght{
     border: 1px solid var(--form);
 }
 
-#form-details form{
+#form-details form {
     width: 65%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-#form-details form input, #form-details form textarea {
+#form-details form input,
+#form-details form textarea {
     width: 100%;
     padding: 12px 15px;
     outline: none;
@@ -868,12 +889,12 @@ footer .copyrght{
     border: 1px solid var(--form);
 }
 
-#form-details form button{
+#form-details form button {
     background-color: var(--green);
     color: var(--wh);
 }
 
-#form-details .people{
+#form-details .people {
     margin-top: 80px;
 }
 
@@ -890,13 +911,13 @@ footer .copyrght{
     margin-right: 15px;
 }
 
-#form-details .people div p{
+#form-details .people div p {
     margin: 0;
     font-size: 13px;
     line-height: 25px;
 }
 
-#form-details .people div  span{
+#form-details .people div span {
     display: block;
     font-size: 16px;
     font-weight: 600;
@@ -905,11 +926,11 @@ footer .copyrght{
 
 /*Cart Page*/
 
-#cart{
+#cart {
     overflow-x: auto;
 }
 
-#cart table{
+#cart table {
     width: 100%;
     border-collapse: collapse;
     table-layout: fixed;
@@ -935,7 +956,9 @@ footer .copyrght{
     text-align: center;
 }
 
-#cart table td:nth-child(4),#cart table td:nth-child(5),#cart table td:nth-child(6) {
+#cart table td:nth-child(4),
+#cart table td:nth-child(5),
+#cart table td:nth-child(6) {
     width: 150px;
     text-align: center;
 }
@@ -951,18 +974,18 @@ footer .copyrght{
     border-right: none;
 }
 
-#cart table thead td{
+#cart table thead td {
     font-weight: 700;
     text-transform: uppercase;
     font-size: 13px;
     padding: 18px 0;
 }
 
-#cart table tbody tr td{
+#cart table tbody tr td {
     padding-top: 15px;
 }
 
-#cart table tbody td{
+#cart table tbody td {
     font-size: 13px;
 }
 
@@ -972,12 +995,13 @@ footer .copyrght{
     justify-content: space-between;
 }
 
-#coupon{
+#coupon {
     width: 50%;
     margin-bottom: 30px;
 }
 
-#coupon h3, #subtotal h3{
+#coupon h3,
+#subtotal h3 {
     padding-bottom: 15px;
 }
 
@@ -989,13 +1013,14 @@ footer .copyrght{
     border: 1px solid var(--bl4);
 }
 
-#coupon button, #subtotal button {
+#coupon button,
+#subtotal button {
     background-color: var(--green);
     color: var(--wh);
     padding: 12px 20px;
 }
 
-#subtotal{
+#subtotal {
     width: 50%;
     margin-bottom: 30px;
     border: 1px solid var(--bl4);
@@ -1008,7 +1033,7 @@ footer .copyrght{
     margin-bottom: 20px;
 }
 
-#subtotal table td{
+#subtotal table td {
     width: 50%;
     border: 1px solid var(--bl4);
     padding: 10px;
@@ -1019,7 +1044,7 @@ footer .copyrght{
 
 @media (max-width:799px) {
 
-    .section-p1{
+    .section-p1 {
         padding: 40px 40px;
     }
 
@@ -1035,7 +1060,7 @@ footer .copyrght{
         width: 300px;
         background-color: var(--bl);
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
-        padding: 80px 0 0  10px;
+        padding: 80px 0 0 10px;
         transition: 0.3s;
     }
 
@@ -1046,6 +1071,7 @@ footer .copyrght{
     #navbar li {
         margin-bottom: 25px;
     }
+
     #mobile {
 
         display: flex;
@@ -1053,7 +1079,7 @@ footer .copyrght{
     }
 
     #mobile i {
-        color: var(--black2); 
+        color: var(--black2);
         font-size: 24px;
         padding-left: 20px;
     }
@@ -1066,19 +1092,21 @@ footer .copyrght{
         color: var(--black);
         font-size: 20px;
     }
-    
+
     #lg-cart {
         display: none;
     }
+
     #hero {
         height: 70vh;
         background-position: top 30% right 30%;
         padding: 0 80px;
     }
+
     #feature {
         justify-content: center;
     }
-    
+
     #feature .fe-box {
         margin: 15px 15px;
     }
@@ -1094,12 +1122,13 @@ footer .copyrght{
     #banner {
         height: 20vh;
     }
-    
-    #sm-banner .banner-box{
+
+    #sm-banner .banner-box {
         min-width: 100%;
         height: 30vh;
 
     }
+
     #banner3 {
         padding: 0 40px;
     }
@@ -1114,22 +1143,22 @@ footer .copyrght{
 
     /*Contact Page*/
 
-    #form-details{
+    #form-details {
         padding: 40px;
     }
 
-    #form-details form{
+    #form-details form {
         width: 50%;
     }
-    
-    #form-details .people{
+
+    #form-details .people {
         margin-left: 20px;
     }
 
 
 }
 
-@media (max-width: 477px){
+@media (max-width: 477px) {
 
     .section-p1 {
         padding: 20px;
@@ -1139,7 +1168,7 @@ footer .copyrght{
         padding: 10px 30px;
     }
 
-    .logo  {
+    .logo {
         width: 70px;
         max-height: 90px;
     }
@@ -1149,7 +1178,7 @@ footer .copyrght{
         background-position: 55%;
     }
 
-    h1{
+    h1 {
         font-size: 38px;
     }
 
@@ -1157,7 +1186,7 @@ footer .copyrght{
         font-size: 32px;
     }
 
-    #feature{
+    #feature {
         justify-content: space-between;
     }
 
@@ -1170,13 +1199,14 @@ footer .copyrght{
         width: 100%;
     }
 
-    #banner{
+    #banner {
         height: 40vh;
     }
 
     #sm-banner .banner-box {
         height: 40vh;
     }
+
     #sm-banner .banner-box2 {
         margin-top: 20px;
     }
@@ -1189,15 +1219,15 @@ footer .copyrght{
         padding: 40px 20px;
     }
 
-    #newsletter .form{
+    #newsletter .form {
         width: 100%;
     }
 
-    footer .copyrght{
+    footer .copyrght {
         text-align: start;
     }
 
-    
+
     /*Single Product Shop*/
 
     #prodetails {
@@ -1216,17 +1246,17 @@ footer .copyrght{
 
     /*Blog Page*/
 
-    #blog{
+    #blog {
         padding: 100px 20px 0 20px;
     }
 
-    #blog .blog-box{
+    #blog .blog-box {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
     }
-    
-    #blog .blog-img{
+
+    #blog .blog-img {
         width: 100%;
         margin-right: 0px;
         margin-bottom: 30px;
@@ -1238,24 +1268,24 @@ footer .copyrght{
 
     /*About Page*/
 
-    #about-head{
+    #about-head {
         flex-direction: column;
     }
 
-    #about-head img{
+    #about-head img {
         width: 100%;
         margin-bottom: 20px;
     }
 
-    #about-head div{
+    #about-head div {
         padding-left: 0px;
     }
 
-    #about-head h2{
+    #about-head h2 {
         text-align: center;
     }
 
-    #about-app .video{
+    #about-app .video {
         width: 100%;
     }
 
@@ -1284,21 +1314,21 @@ footer .copyrght{
         width: 100%;
     }
 
-    #form-details .people{
+    #form-details .people {
         margin-top: 30px;
     }
 
     /*Cart Page*/
-    
-    #cart-add{
+
+    #cart-add {
         flex-direction: column;
     }
 
-    #coupon{
+    #coupon {
         width: 100%;
     }
-    
-    #subtotal{
+
+    #subtotal {
         width: 100%;
         padding: 30px;
     }
