@@ -699,7 +699,7 @@ footer .copyrght {
 /*Blog Page*/
 
 #page-header.blog-header {
-    background-image: url('img/banner/b19.jpg');
+    background-image: url('img/bgpadel2.png');
 }
 
 #blog {
@@ -770,7 +770,7 @@ footer .copyrght {
 /*About page*/
 
 #page-header.about-header {
-    background-image: url('img/about/banner.png');
+    background-image: url('img/bgpadel2.png');
 }
 
 #about-head {
@@ -789,6 +789,10 @@ footer .copyrght {
 
 #about-head div h2 {
     margin-top: 0px;
+}
+
+#about-head div p{
+    text-align: justify;
 }
 
 #about-app {
